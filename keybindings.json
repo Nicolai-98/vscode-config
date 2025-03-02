@@ -1,0 +1,111 @@
+// Place your key bindings in this file to override the defaults
+[
+    // Clear useless stuff
+    {
+        "key": "Ctrl+1",
+        "command": "-workbench.action.focusFirstEditorGroup"
+    },
+    {
+        "key": "Ctrl+2",
+        "command": "-workbench.action.focusSecondEditorGroup"
+    },
+    {
+        "key": "Ctrl+3",
+        "command": "-workbench.action.focusThirdEditorGroup"
+    },
+    {
+        "key": "Ctrl+4",
+        "command": "-workbench.action.focusFourthEditorGroup"
+    },
+    {
+        "key": "Ctrl+5",
+        "command": "-workbench.action.focusFifthEditorGroup"
+    },
+    {
+        "key": "Ctrl+6",
+        "command": "-workbench.action.focusSixthEditorGroup"
+    },
+    {
+        "key": "Ctrl+7",
+        "command": "-workbench.action.focusSeventhEditorGroup"
+    },
+    {
+        "key": "Ctrl+8",
+        "command": "-workbench.action.focusSeventhEditorGroup"
+    },
+    {
+        "key": "Ctrl+9",
+        "command": "-workbench.action.focusLastEditorGroup"
+    },
+    // NAVIGATION
+    {
+        "key": "ctrl+shift+a",
+        "command": "workbench.action.terminal.focusNext",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "ctrl+shift+b",
+        "command": "workbench.action.terminal.focusPrevious",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "ctrl+shift+j",
+        "command": "workbench.action.togglePanel"
+    },
+    {
+        "key": "ctrl+shift+n",
+        "command": "workbench.action.terminal.new",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "ctrl+shift+w",
+        "command": "workbench.action.terminal.kill",
+        "when": "terminalFocus"
+    },
+    // FILE TREE
+    {
+        "command": "workbench.action.toggleSidebarVisibility",
+        "key": "ctrl+e"
+    },
+    {
+        "command": "workbench.files.action.focusFilesExplorer",
+        "key": "ctrl+e",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "n",
+        "command": "explorer.newFile",
+        "when": "filesExplorerFocus && !inputFocus"
+    },
+    {
+        "command": "renameFile",
+        "key": "r",
+        "when": "filesExplorerFocus && !inputFocus"
+    },
+    {
+        "key": "shift+n",
+        "command": "explorer.newFolder",
+        "when": "explorerViewletFocus"
+    },
+    {
+        "command": "deleteFile",
+        "key": "d",
+        "when": "filesExplorerFocus && !inputFocus"
+    },
+    {
+        "key": "ctrl+shift+alt+n",
+        "command": "workbench.action.files.newUntitledFile"
+    },
+    {
+        "key": "ctrl+n",
+        "command": "-workbench.action.files.newUntitledFile"
+    },
+    {
+        "key": "ctrl+shift+alt+n",
+        "command": "workbench.action.newWindow"
+    },
+    {
+        "key": "ctrl+shift+n",
+        "command": "-workbench.action.newWindow"
+    }
+]
