@@ -21,5 +21,5 @@
         "editorLineNumber.foreground": "#ffc65c",
         "statusBar.foreground": "#ffc65c"
     },
-    "github.copilot.editor.enableAutoCompletions": true
+    "github.copilot.editor.enableAutoCompletions": false
 }
